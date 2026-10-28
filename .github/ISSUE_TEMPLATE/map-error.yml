@@ -1,0 +1,18 @@
+name: Помилка на карті
+description: Неправильна точка, трек, висота чи опис
+title: "Помилка: "
+labels: ["помилка"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Де саме
+      description: Назва маршруту чи точки, або посилання на сторінку mandra.in.ua.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Що не так і як насправді
+    validations:
+      required: true

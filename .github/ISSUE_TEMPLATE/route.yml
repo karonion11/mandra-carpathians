@@ -1,0 +1,22 @@
+name: Додайте маршрут
+description: Маршрут, якого бракує в Мандрі
+title: "Маршрут: "
+labels: ["маршрут"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Звідки й куди
+      placeholder: "Наприклад: Шибене — Піп Іван — Дземброня"
+    validations:
+      required: true
+  - type: input
+    id: area
+    attributes:
+      label: Хребет або район
+      placeholder: "Чорногора, Ґорґани, Свидовець…"
+  - type: textarea
+    id: details
+    attributes:
+      label: Що варто знати
+      description: Стежка, маркування, вода, ночівля, посилання на трек (GPX), якщо є.
